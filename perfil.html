@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="perfil.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="Header_Conteúdo">
+            <h1>Eduardo Santos</h1>
+            <p> Web Designer- Front-End </p>
+        </div>
+    </header>
+
+    <section id="Carrossel">
+
+        <div class="quadro_carrossel">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagem1.png" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="imagem2.png" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="imagem3.png" alt="Terceiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="imagem4.png" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+    </section>
+
+    <section id="intro">
+        <div class="intro_conteudo">
+            <p> Eu, Eduardo Santos, tenho 18 anos e estou começando na área de Web Design Front-End. Tenho uma boa
+                formação e gosto de criar designs funcionais. Além de Web Design, entendo um pouco de informática
+                básica, o que me ajuda a ser versátil. Destaco-me por unir princípios de design com conhecimentos
+                técnicos, sendo útil em projetos diversos. Estou sempre aprendendo e me preparando para os desafios do
+                mundo digital, mostrando dedicação como profissional iniciante no Web Design Front-End.</p>
+        </div>
+    </section>
+
+    <section id="Projetos">
+        <div class="conteudo">
+            <h2> Projetos </h2>
+            <p>CauculadoraWeb</p>
+            <p>Flex Page</p>
+            <p>Tabela</p>
+            <p>Hora do dia</p>
+        </div>
+
+<div id="abs">
+            <iframe class="abs"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSd8J2-PIcYpF8OFicud1gnfHF4Ppnhbqe5DljJW7Kh1Q0otjw/viewform?embedded=true"
+                width="1100" height="642" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="conteudo">
+            <h2> Habilidades </h2>
+            <p>informática básica, digitação rapida, Soft e Hard skills</p>
+        </div>
+    </section>
+
+    
+
+        </div>
+    </section>
+
+    <section id="calculo_proj">
+        <!-- Calculo de projetos -->
+        <div class="conteudo">
+            <h2>Faça um orçamento do seu Projeto aqui</h2>
+            <div class="calculo">
+                <label for="tipoprojeto"> Tipo de projeto: </label>
+                <select name="tipoprojeto" id="tipoprojeto">
+                    <option value="Website">Website</option>
+                    <option value="LandingPage">Landing Page</option>
+                    <option value="WebApp">Aplicação Web</option>
+                </select>
+                <!----------------------------------------------------------------------------------------------------------->
+                <label for="horasprojeto">Horas estimadas</label>
+                <input type="number" id="horasprojeto" placeholder="Horas">
+                <button onclick="calcularprojeto()">Calcular preço do Projeto</button>
+                <p id="preco">Preço do projeto: R$0,00</p>
+            </div>
+    </section>
+
+    <footer>
+        &copy; Eduardo Santos
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="perfil.js"></script>
+</body>
+
+</html>
